@@ -1,0 +1,64 @@
+/* Global styles 
+------------------------------------*/
+body {
+  font-family: 'Open Sans', sans-serif; 
+  margin: 0px;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 80px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, 
+footer {
+  background: #2B2D42;
+  color: #8D99AE;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+header h1,
+header h2 {
+  color: #EDF2F4;
+}
+footer, a {
+  text-align: center;
+  padding-right: 20px;
+}
+
+/* Padding for sides of page!
+------------------------------------ */
+header, 
+footer,
+.work,
+.education {
+  padding: 10px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background: #EDF2F4;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #8D99AE;
+}
